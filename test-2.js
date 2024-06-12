@@ -1,7 +1,10 @@
-let score = 60;
-if (score >=70){
-    console.log('Good work!');
+const score = 189
+if (score <= 100) {
+    console.log('Not bad 🙏🏽');
 }
-else if(score < 70) { 
-    console.log('pretty bad');
+else if (score >= 180) {
+    console.log('Very good 👏🏽');
+}
+else { 
+    console.log('keep trying');
 }
