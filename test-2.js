@@ -1,10 +1,11 @@
-const score = 189
-if (score <= 100) {
-    console.log('Not bad 🙏🏽');
+Tories = 250
+Labour = 300
+
+if (Labour > Tories) {
+    console.log('Starmer is in N°10');
 }
-else if (score >= 180) {
-    console.log('Very good 👏🏽');
+ else if (Labour == Tories) {
+    console.log('A cohabitation is needed 😔');
 }
-else { 
-    console.log('keep trying');
+    else { console.log('Sunak is still home 🙂‍↔️')
 }
